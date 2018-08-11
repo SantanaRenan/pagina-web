@@ -51,9 +51,26 @@
         </div>
       </div>
     </header>
+  <!-- criando a área de contato por email do site (imput), dentro do  section id contato, começando abaixo da h1 contato.  -->
     <section id="contato">
       <div class="container">
         <h1 class="text-center">Contato</h1>
+  <!-- form class para receber as informações dos formularios do contato, em um servidor -->
+        <form class="text-center" action="index.html" method="post">
+          <p>
+            <input class="form-control" type="text" id="text-nome" placeholder="Nome">
+          </p>
+          <p>
+            <input class="form-control" type="email" id="text-email" placeholder="Email">
+          </p>
+          <p>
+            <textarea class="form-control" id="text-Mensagem" placeholder="Mensagem"></textarea>
+          </p>
+          <p>
+            <input class=" btn btn-danger form-control" type="submit" value="Enviar">
+          </p>
+        </form>
+
       </div>
     </section>
     <!-- jquery bootstrap-->
